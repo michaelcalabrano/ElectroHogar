@@ -1,8 +1,7 @@
-/* ============ 1. ESTILOS GLOBALES ================= */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Permite calcular bien los anchos */
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -13,8 +12,8 @@ body {
 }
 
 .container {
-    max-width: 1000px; /* Cambiamos width por max-width */
-    width: 95%; /* La goma elástica */
+    max-width: 1000px;
+    width: 95%;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 30px;
@@ -26,16 +25,15 @@ img {
     height: auto;
 }
 
-/* ============= 2. COMPONENTES COMPARTIDOS =============== */
 header {
     padding: 10px 0;
     border-bottom: 3px solid #ff6600;
     margin-bottom: 30px;
-    overflow: hidden; /* Secreto para que los float no rompan el header */
+    overflow: hidden; 
 }
 
 .logo-box {
-    float: left; /* Alineado a la izquierda al estilo clásico */
+    float: left;
     display: block;
 }
 
@@ -51,11 +49,11 @@ header {
     font-size: 1.8rem;
     color: #003366;
     margin-left: 20px;
-    padding-top: 15px; /* Para que quede a la altura del logo */
+    padding-top: 15px;
 }
 
 nav {
-    float: right; /* Menú a la derecha */
+    float: right;
     padding-top: 15px;
 }
 
@@ -73,7 +71,7 @@ nav a:hover {
 
 .banner {
     background-image: url('img/Catalogo.png');
-    background-color: #003366; /* Color de fondo por si la imagen no carga */
+    background-color: #003366;
     background-size: cover;
     background-position: center;
     color: white;
@@ -92,20 +90,19 @@ footer {
     padding: 20px;
     font-weight: bold;
     margin-top: 40px;
-    clear: both; /* Asegura que el footer siempre quede abajo de todo */
+    clear: both;
 }
 
-/* ============== 3. PÁGINA DE INICIO ==================== */
 .info-section {
     margin-bottom: 30px;
-    overflow: hidden; /* Limpia los floats internos */
+    overflow: hidden;
 }
 
 .gerente-box {
     float: left;
     width: 30%;
     background-color: #ffffff;
-    border: 1px solid #dee2e6; /* Borde recto */
+    border: 1px solid #dee2e6;
     text-align: center;
     padding: 15px;
 }
@@ -127,7 +124,7 @@ footer {
     float: right;
     width: 65%;
     background-color: #ffffff;
-    border: 1px solid #dee2e6; /* Borde recto */
+    border: 1px solid #dee2e6;
     padding: 40px;
 }
 
@@ -144,7 +141,7 @@ footer {
 
 .edificio-box {
     background-color: #f8f9fa;
-    border: 2px solid #222222; /* Borde recto */
+    border: 2px solid #222222;
     margin-top: 20px;
     overflow: hidden;
 }
@@ -154,7 +151,6 @@ footer {
     display: block;
 }
 
-/* ============== 4. PÁGINA DE INICIO DE SESIÓN =================== */
 .login-section {
     padding: 60px 0;
     background-color: #f4f7f6;
@@ -165,8 +161,8 @@ footer {
     background-color: #ffffff;
     padding: 40px;
     width: 450px;
-    margin: 0 auto; /* Centra la caja al medio */
-    border: 1px solid #cccccc; /* Borde recto clásico */
+    margin: 0 auto;
+    border: 1px solid #cccccc;
     text-align: center;
 }
 
@@ -192,7 +188,6 @@ footer {
     width: 100%;
     padding: 12px;
     border: 1px solid #ddd;
-    /* Sin curvas */
 }
 
 .btn-login {
@@ -211,18 +206,17 @@ footer {
     background-color: #ff6600;
 }
 
-/* ============= 5. PÁGINA DE GALERÍA (ESTILO TABLA) ==================== */
 .tabla-galeria {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 20px; /* Separación entre cuadros */
+    border-spacing: 20px;
 }
 
 .tabla-galeria td {
     background-color: #ffffff;
-    border: 1px solid #cccccc; /* Bordes totalmente rectos */
+    border: 1px solid #cccccc;
     padding: 20px;
-    width: 33.33%; /* 3 columnas iguales */
+    width: 33.33%;
     vertical-align: top;
 }
 
@@ -248,12 +242,12 @@ footer {
     text-align: center;
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #eeeeee; /* Borde interno recto */
+    border: 1px solid #eeeeee;
 }
 
 .img-producto img {
     max-width: 100%;
-    height: 150px; /* Fija la altura para que no se deforme */
+    height: 150px;
 }
 
 .cantidad-group {
